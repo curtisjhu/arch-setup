@@ -138,8 +138,8 @@ systemctl enable ly.service
 ```
 exit
 unmount /mnt
-systemctl reboot
-// or shutdown now
+reboot
+// or [shutdown now]
 ```
 
 
