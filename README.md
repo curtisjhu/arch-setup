@@ -117,13 +117,11 @@ vim /etc/sudoers
 ```
 pacman -S xorg networkmanager
 pacman -S lightdm lightdm-gtk-greeter
-pacman -S xmonad xmonad-contrib
 
 ```
 ```
 systemctl enable NetworkManager.service
 systemctl enable lightdm.service
-xinit
 ```
 
 or
@@ -140,11 +138,5 @@ exit
 unmount /mnt
 reboot
 // or [shutdown now]
-```
-
-
-### Last Packages
-```
-pacman -S firefox 
 ```
 
