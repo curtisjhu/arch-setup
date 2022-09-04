@@ -36,6 +36,7 @@ ping google.com
 timedatectl --help
 timedatectl list-timezones
 timedatectl set-timezone America/Los_Angeles
+timedatectl set-ntp true
 ```
 
 ### Disk Partitioning
