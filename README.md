@@ -6,9 +6,10 @@
 Boot from ISO image on USB stick.
 
 ### Keyboard
+Default is US keyboard
 ```
 ls /usr/share/kdb/keymaps/**.*.maps.gz
-loadkeys de-latin1
+loadkeys de-latin1 # into the german keyboard
 ```
 
 ### Internet
@@ -20,7 +21,7 @@ iwctl
 > device list
 > station [wlan0] scan
 > station [wlan0] get-networks
-> station [wlan0] connect
+> station [wlan0] connect "name"
 
 > station [wlan0] show
 > station [wlan0] disconnect
@@ -34,7 +35,7 @@ ping google.com
 ```
 timedatectl --help
 timedatectl list-timezones
-timedatectl set-timezones America/Los_Angeles
+timedatectl set-timezone America/Los_Angeles
 ```
 
 ### Disk Partitioning
