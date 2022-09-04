@@ -45,6 +45,7 @@ fdisk -l
 ```
 Enter disk you want to partition
 - Usually partition with /home, /swap, /root, or sometimes /boot
+- both /home and /swap are primary
 ```
 fdisk [/dev/sda]
 > n %creates new partition
